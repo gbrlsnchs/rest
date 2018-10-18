@@ -50,7 +50,7 @@ http.Handle("/", &rest.Wrapper{
 		pong := message{"pong"}
 		ctx.SendJSON(pong, http.StatusOK)
 	}),
-	RecoverFunc: rest.HandlerFunc(func(ctx *rest.Context) {
+	RecoverHandler: rest.HandlerFunc(func(ctx *rest.Context) {
 		ctx.Send(http.StatusInternalServerError)
 	}),
 })
