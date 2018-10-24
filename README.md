@@ -1,10 +1,9 @@
 # rest (RESTful HTTP handler for Go)
 
-[![Build status](https://travis-ci.org/gbrlsnchs/rest.svg?branch=master)](https://travis-ci.org/gbrlsnchs/rest)
-[![Build status](https://ci.appveyor.com/api/projects/status/sy5iwaww690tymu3/branch/master?svg=true)](https://ci.appveyor.com/project/gbrlsnchs/rest/branch/master)
+[![Build Status](https://travis-ci.org/gbrlsnchs/rest.svg?branch=master)](https://travis-ci.org/gbrlsnchs/rest)
 [![Sourcegraph](https://sourcegraph.com/github.com/gbrlsnchs/rest/-/badge.svg)](https://sourcegraph.com/github.com/gbrlsnchs/rest?badge)
 [![GoDoc](https://godoc.org/github.com/gbrlsnchs/rest?status.svg)](https://godoc.org/github.com/gbrlsnchs/rest)
-[![Minimal version](https://img.shields.io/badge/minimal%20version-go1.10%2B-5272b4.svg)](https://golang.org/doc/go1.10)
+[![Minimal Version](https://img.shields.io/badge/minimal%20version-go1.10%2B-5272b4.svg)](https://golang.org/doc/go1.10)
 
 ## About
 This package implements a simple RESTful HTTP handler that facilitates receiving requests or sending responses in JSON or XML by using a custom context.
